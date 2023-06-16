@@ -1,88 +1,115 @@
-*{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+header h2{
+    font-weight: bolder;
+}
+header{
+    text-align: center;
+    padding: 50px;
+}
+.page{
+    padding-bottom: 100px;
 }
 
 /* styling navbar */
-.navbar{
-    background-color: #4C4C6D;
-    padding: 2%;
-    
+.navbar {
+  background-color: #4c4c6d;
+  padding: 2%;
 }
 
-.menu{
-    margin-right: 10%;
-    text-decoration: none;
-    
-    
+.menu {
+  margin-right: 10%;
+  text-decoration: none;
 }
 
-#home{
-    margin: 40px;
-    text-decoration: none;
-    color: white;
-
+#home {
+  margin: 40px;
+  text-decoration: none;
+  color: white;
 }
-#home:hover{
-    color: #1B9C85;  
-}
-
-#about{
-    margin: 40px;
-    text-decoration: none;
-    color: white;
-}
-#about:hover{
-    color: #1B9C85;  
+#home:hover {
+  color: #1b9c85;
 }
 
-#contact{
-    margin: 40px;
-    text-decoration: none;
-    color: white;
+#about {
+  margin: 40px;
+  text-decoration: none;
+  color: white;
 }
-#contact:hover{
-    color: #1B9C85;  
+#about:hover {
+  color: #1b9c85;
 }
 
-
+#contact {
+  margin: 40px;
+  text-decoration: none;
+  color: white;
+}
+#contact:hover {
+  color: #1b9c85;
+}
 
 /* ====================================== */
 /* styling page 1 */
-.content{
-    background-color: #4C4C6D;
-    padding: 12%;
-    background-image: url(bg1.png);
-    background-size: 70%;
-    
+.content {
+  background-color: #4c4c6d;
+  padding: 10% 10% 15% 10%;
+  background-image: url(bg1.png);
+  background-size: 70%;
+  position: relative;
 }
 
-
-.teks{
-    color: white;
-    
+.teks {
+  color: white;
+  width: 500px;
 }
 
-.btn{
-    background-color: #1B9C85;
-    border-radius: 10px;
-    color: azure;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+.btn {
+  background-color: #1b9c85;
+  border-radius: 10px;
+  color: azure;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.btn:hover{
-    background-color: #0F6657;
-
+.btn:hover {
+  background-color: #0f6657;
 }
 
-
-#tt{
-    color: #FFE194;
+#tt {
+  color: #ffe194;
 }
 
-.icn{
+.icn {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+/* ====================================== */
+/* styling page 3*/
+
+.container{
     display: flex;
     justify-content: space-between;
-    width: 380px;
-    float: right;
+}
+.container > div{
+    margin: 20px;
+    width: 480px;
+    height: 480px;
+}
+#gambar{
+    position: relative;
+}
+.ronaldo{
+    width: 300px;
+    border-radius: 20px;
+}
+#ronaldo2{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
